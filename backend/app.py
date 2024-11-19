@@ -11,11 +11,11 @@ from langchain_chroma import Chroma
 import os
 
 # Initialize environment variables for LangChain setup
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
-os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGCHAIN_PROJECT"] = "pr-charming-bull-58"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDoKJXS1efVVHy2r4CSdaTdILF7UquhVQs"     
+os.environ["LANGCHAIN_TRACING_V2"] = ""
+os.environ["LANGCHAIN_API_KEY"] = ""
+os.environ["LANGCHAIN_ENDPOINT"] = ""
+os.environ["LANGCHAIN_PROJECT"] = ""
+os.environ["GOOGLE_API_KEY"] = ""     
 
 # Define embeddings and model
 gemini_embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
